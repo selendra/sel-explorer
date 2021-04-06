@@ -1,0 +1,24 @@
+{
+  "name": "@chainx2/scan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mongodb": "^3.5.25",
+    "cross-env": "^7.0.2"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@chainx-v2/account": "^0.0.50",
+    "@chainx-v2/api": "^0.0.50",
+    "@polkadot/api": "^2.4.1",
+    "@polkadot/util-crypto": "^3.6.1",
+    "@polkadot/util": "^3.6.1",
+    "bignumber.js": "^9.0.0",
+    "lodash": "^4.17.20",
+    "log4js": "^6.3.0",
+    "mongodb": "^3.5.9"
+  }
+}

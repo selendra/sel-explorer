@@ -1,0 +1,31 @@
+{
+  "name": "@chainx2/scan-server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "start-2": "node src/index-2.js",
+    "start-3": "node src/index-3.js",
+    "start-4": "node src/index-4.js",
+    "start-5": "node src/index-5.js"
+  },
+  "dependencies": {
+    "@chainx-v2/account": "^0.0.50",
+    "@chainx-v2/api": "^0.0.50",
+    "@polkadot/api": "^2.4.1",
+    "@koa/cors": "^3.1.0",
+    "@polkadot/keyring": "^3.6.1",
+    "@polkadot/util": "^3.6.1",
+    "bignumber.js": "^9.0.0",
+    "dotenv": "^8.2.0",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-helmet": "^5.2.0",
+    "koa-logger": "^3.2.1",
+    "koa-ratelimit": "^5.0.0",
+    "koa-compress": "^5.0.0",
+    "koa-router": "^9.1.0",
+    "mongodb": "^3.5.9",
+    "socket.io": "^3.0.0"
+  }
+}
